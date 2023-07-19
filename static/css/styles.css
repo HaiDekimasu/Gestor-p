@@ -34,7 +34,7 @@ a{
 }
 body {
     
-    background-image: linear-gradient(to right,#7F7FD5,#6085c9,#91EAE4);
+    background-image: linear-gradient(to right,#7f7fd5a6,#6085c994,#91eae47c);
 }
 h1,h2,h3,h4,h5,h6{
     font-family: var(--fonts-princi);
