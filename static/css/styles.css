@@ -12,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: varsy;
     src: url(/static//fonts/varsy.ttf);
@@ -198,8 +199,10 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
+
 /*footer ___________________________________________________________________*/
 footer{
+    padding-top: 30px;
     margin-top: 50px;
     height: 100px;
     background-image: linear-gradient(to left,#91EAE4, #86A8E7,#7F7FD5);
@@ -219,9 +222,10 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 50vh;
+    height: 100%;
     width: 100vw;
     margin: 50px;
+    padding-bottom: 6rem;
 }
 /*detalle de contactos_______________________________________________________________________________*/
 .lista-2{
