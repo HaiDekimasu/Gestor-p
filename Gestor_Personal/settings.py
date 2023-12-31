@@ -119,10 +119,10 @@ USE_TZ = True
 import os
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')  # Mantiene su configuración
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')  
 
 STATICFILES_DIRS = [
-    # Elimina la referencia a STATIC_ROOT
+    
 ]
 
 
