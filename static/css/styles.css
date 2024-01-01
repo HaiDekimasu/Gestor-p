@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: varsy;
-    src: url(/static//fonts/varsy.ttf);
+    src: url(/static/fonts/varsy.ttf);
 }
 @font-face {
     font-family: Chuby;
@@ -23,7 +23,7 @@
 }
 @font-face {
     font-family: Rich;
-    src: url(/static/fonts/Rich.otf);        
+    src: url(/static/fonts/Rich.otf);
 }
 a[href^="#"] {
     text-decoration: none;
@@ -34,7 +34,7 @@ a{
     color: var(--color-primary);
 }
 body {
-    
+
     background-image: linear-gradient(to right,#7f7fd5a6,#6085c994,#91eae47c);
 }
 h1,h2,h3,h4,h5,h6{
@@ -57,9 +57,9 @@ h1,h2,h3,h4,h5,h6{
 }
 /*_________________________________________________________________*/
 /* barra de navegacion*/
-.nav-list { 
+.nav-list {
     display: flex;
-    list-style: none; 
+    list-style: none;
     font-family: var(--fonts-main);
     font-size: 3rem;
     width: 100%;
@@ -79,7 +79,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .lista-1 li{
     font-family:var(--fonts-text);
-    color:var(--color-body); 
+    color:var(--color-body);
     border: solid 2px;
     margin-top: 5px;
     width: 100%;
@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5,h6{
     float: right;
     padding-right: 5px;
     padding-top: 6px;
-    
+
 }
 .boton1{
     text-decoration: none;

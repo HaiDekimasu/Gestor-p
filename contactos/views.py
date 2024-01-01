@@ -1,4 +1,3 @@
-from unicodedata import name
 from django.shortcuts import render, redirect
 from .models import Contactos
 from .forms import ContactosForm
@@ -16,7 +15,7 @@ def index(request):
 
 def view(request, id):
     contactos = Contactos.objects.get(id=id)
-    
+
     context = {
         'contactos': contactos
     }
@@ -24,7 +23,7 @@ def view(request, id):
 
 def edit(request, id):
     contactos = Contactos.objects.get(id=id)
-    
+
     if (request.method == 'GET'):
         form = ContactosForm(instance = contactos)
         context = {
@@ -32,7 +31,7 @@ def edit(request, id):
             'id': id
         }
         return render(request, 'contactos/edit.html', context)
-    
+
     if(request.method == 'POST'):
         form = ContactosForm(request.POST, instance= contactos)
         if form.is_valid():
@@ -51,7 +50,7 @@ def create(request):
             'form': form,
         }
         return render(request, 'contactos/create.html', context)
-    
+
     if request.method == 'POST':
         form = ContactosForm(request.POST)
         if form.is_valid():
