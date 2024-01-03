@@ -16,15 +16,15 @@
 
 @font-face {
     font-family: varsy;
-    src: url(/static/fonts/varsy.ttf);
+    src: url(/fonts/varsy.ttf);
 }
 @font-face {
     font-family: Chuby;
-    src: url(/static/fonts/Chuby.ttf);
+    src: url(/fonts/Chuby.ttf);
 }
 @font-face {
     font-family: Rich;
-    src: url(/static/fonts/Rich.otf);
+    src: url(/fonts/Rich.otf);
 }
 a[href^="#"] {
     text-decoration: none;
